@@ -32,7 +32,7 @@ const Thread = ({history}) => {
     <p>{thread.total_replies}</p>
     <ul>
       {thread.replies ? thread.replies.map((el, idx) => (
-        <li key={idx} data-test="thread">
+        <li key={idx} data-test="resposta">
           <h5>{el.user.name}</h5>
           <p>{el.body}</p>
         </li>

@@ -25,7 +25,7 @@ const Threads = () => {
     <React.Fragment>
       <ul>
         {threads.map((el, idx) => (
-          <li key={idx} data-test="thead">
+          <li key={idx} data-test="thread">
             <Link to={"/thread/"+el.slug} >
               <h5>{el.title}</h5>
             </Link>
